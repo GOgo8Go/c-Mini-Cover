@@ -38,10 +38,10 @@ const createCanvas = (width, height) => {
     return { canvas, ctx: canvas.getContext('2d') };
 };
 
-export const { canvas: bgCanvas, ctx: bgCtx } = createCanvas(1000, 500);
-export const { canvas: textCanvas, ctx: textCtx } = createCanvas(1000, 500);
-export const { canvas: watermarkCanvas, ctx: watermarkCtx } = createCanvas(1000, 500);
-export const { canvas: squareCanvas, ctx: squareCtx } = createCanvas(1000, 500);
+export const { canvas: bgCanvas, ctx: bgCtx } = createCanvas(1000, 600);
+export const { canvas: textCanvas, ctx: textCtx } = createCanvas(1000, 600);
+export const { canvas: watermarkCanvas, ctx: watermarkCtx } = createCanvas(1000, 600);
+export const { canvas: squareCanvas, ctx: squareCtx } = createCanvas(1000, 600);
 
 export function updatePreview(type, event) {
     const updateFunctions = {
