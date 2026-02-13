@@ -1,29 +1,18 @@
 <template>
   <footer class="sm:mt-12 mb-2 text-center text-xs sm:text-sm">
     <div class="flex flex-wrap justify-center gap-x-2 gap-y-1">
-      <span>富强</span>
-      <span>民主</span>
-      <span>文明</span>
-      <span>和谐</span>
-      <span>自由</span>
-      <span>平等</span>
-      <span>公正</span>
-      <span>法治</span>
-      <span>爱国</span>
-      <span>敬业</span>
-      <span>诚信</span>
-      <span>友善</span>
+ 
     </div>
     <div class="mt-2 space-x-2">
       <span>© 2024</span>
       <a href="https://bsgun.cn" 
          target="_blank"
-         class="font-bold text-green-600 hover:text-gray-600 transition-colors">梦爱吃鱼</a>
+         class="font-bold text-green-600 hover:text-gray-600 transition-colors">图片</a>
       <a v-if="icpNumber" 
-         href="https://beian.miit.gov.cn/" 
+         href=" " 
          target="_blank"
          class="font-bold text-green-600 hover:text-gray-600 transition-colors">{{ icpNumber }}</a>
-      <button class="text-pink-500 font-bold" @click="toggleTips">小提示</button>
+      <button class="text-pink-500 font-bold" @click="toggleTips"> </button>
     </div>
     
     <!-- 小提示弹窗 -->
@@ -35,9 +24,7 @@
          }"
     >
       <div class="flex flex-col text-base items-center justify-center">
-        <span>为避免性能问题，建议不要连续做图</span>
-        <span>建议经常<a href="/" class="text-green-600 hover:text-gray-800 transition-colors">刷新页面</a>优化性能</span>
-        <span class="text-red-500 font-bold">重要提示：请确保您的浏览器和设备性能良好</span>
+        
       </div>
     </div>
   </footer>
