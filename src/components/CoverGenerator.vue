@@ -304,7 +304,7 @@
       <canvas 
         id="canvasPreview" 
         width="1000" 
-        height="500" 
+        height="600" 
         @dragover.prevent="handleCanvasDragOver"
         @dragleave.prevent="handleCanvasDragLeave"
         @drop.prevent="handleCanvasDrop" 
